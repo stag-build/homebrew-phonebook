@@ -1,18 +1,20 @@
-# Stag-build Phonebook
+# homebrew-phonebook
 
-## How do I install these formulae?
+Homebrew tap for [Phonebook](https://github.com/stag-build/phonebook) — a self-hosted, Storybook-style gallery generated from Compose `@Preview` / SwiftUI `#Preview` screenshots.
 
-`brew install stag-build/phonebook/<formula>`
+## Install
 
-Or `brew tap stag-build/phonebook` and then `brew install <formula>`.
+```sh
+brew install stag-build/phonebook/phonebook
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Or tap first, then install:
 
-```ruby
-tap "stag-build/phonebook"
-brew "<formula>"
+```sh
+brew tap stag-build/phonebook
+brew install phonebook
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+See the [main repo](https://github.com/stag-build/phonebook) for usage, `phonebook init`/`doctor`/`generate`/`build`, and MCP setup.
