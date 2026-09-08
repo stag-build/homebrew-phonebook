@@ -1,8 +1,8 @@
 class Phonebook < Formula
   desc "Storybook-style gallery generated from native preview screenshots"
   homepage "https://github.com/stag-build/phonebook"
-  url "https://registry.npmjs.org/@stag-build/phonebook/-/phonebook-0.1.2.tgz"
-  sha256 "c3c0c55d77733886beb930f518874fc6b4d6356d7c8652fabd4b4a628fcdb985"
+  url "https://registry.npmjs.org/@stag-build/phonebook/-/phonebook-0.1.3.tgz"
+  sha256 "65a973255c7df2ffb6a7dcdd0026cd1f7d43594f24cfb84e647388d07c1a1c40"
   license "MIT"
 
   depends_on "node"
